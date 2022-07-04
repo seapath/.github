@@ -26,6 +26,9 @@ and IEC 61869. In the case where the requirements and guidance from the standard
 progress,the project may have to take different choices. In such case the project will strive to provide feedback to the
 relevant standardization activities.*
 
+## Want to give it a try ?
+
+ You can start from [here](https://github.com/seapath/seapath-architecture)
 
 ## Background
 
