@@ -64,4 +64,5 @@ You can connect with the community in a variety of ways...
 Interested in contributing? Please read carefully the [CONTRIBUTING guidelines](/CONTRIBUTING.md).
 
 # Governance
-SEAPATH is a project hosted by the [LF Energy Foundation](https://lfenergy.org). This project's techincal charter is located in [[SEAPATH] Technical Charter v2 - APPROVED 2021-01-07.pdf](https://github.com/seapath/contributing/blob/master/%5BSEAPATH%5D%20Technical%20Charter%20v2%20-%20APPROVED%202021-01-07.pdf) and has established it's own processes for managing day-to-day processes in the project at [Project Governance](https://github.com/seapath/contributing/blob/master/CONTRIBUTING.md#project-governance).
+
+SEAPATH is a project hosted by the [LF Energy Foundation](https://lfenergy.org). This project's techincal charter is located at [https://github.com/lf-energy/foundation/blob/main/project_charters/seapath_charter.pdf](https://github.com/lf-energy/foundation/blob/main/project_charters/seapath_charter.pdf) and has established it's own processes for managing day-to-day processes in the project at [Project Governance](https://github.com/seapath/contributing/blob/master/CONTRIBUTING.md#project-governance).
