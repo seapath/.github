@@ -116,7 +116,7 @@ SEAPATH is part of the [LF Energy Foundation](https://www.lfenergy.org/), a proj
 
 #### Technical Charter
 
-The Project's [Technical Charter](https://github.com/seapath/contributing/blob/master/%5BSEAPATH%5D%20Technical%20Charter%20v2%20-%20APPROVED%202021-01-07.pdf) sets forth the responsibilities and procedures for technical contribution to, and oversight of, the SEAPATH Project.
+The Project's [Technical Charter](https://github.com/lf-energy/foundation/blob/main/project_charters/seapath_charter.pdf) sets forth the responsibilities and procedures for technical contribution to, and oversight of, the SEAPATH Project.
 
 #### Committers
 
