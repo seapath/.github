@@ -1,12 +1,21 @@
 # SEAPATH - (S)oftware (E)nabled (A)utomation (P)latform and (A)rtifacts (TH)erein
+
 [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/5398/badge)](https://bestpractices.coreinfrastructure.org/projects/5398)
+
+[![SonarCloud on VM Manager](https://sonarcloud.io/api/project_badges/measure?project=seapath_vm_manager&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=seapath_vm_manager)
+[![SonarCloud on python3-setup-ovs](https://sonarcloud.io/api/project_badges/measure?project=seapath_python3-setup-ovs&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=seapath_python3-setup-ovs)
+
+[![ShellCheck on build_debian_iso](https://github.com/seapath/build_debian_iso/actions/workflows/shellcheck.yml/badge.svg)](https://github.com/seapath/build_debian_iso/actions/workflows/shellcheck.yml)
+[![Ansible-lint on Ansible repository](https://github.com/seapath/ansible/actions/workflows/ansible-lint.yml/badge.svg)](https://github.com/seapath/ansible/actions/workflows/ansible-lint.yml)
+[![Complete CI on Debian Ansible repository](https://github.com/seapath/ansible/actions/workflows/ci-debian.yml/badge.svg)](https://github.com/seapath/ansible/actions/workflows/ci-debian.yml)
+
 ## Mission
 
 The mission of the **SEAPATH** project is to **develop a “reference design” and “industrial grade” open source
 real-time platform** that can run virtualized automation and protection applications (for the power grid industry
 in the first place and potentially beyond). This platform is intended to host multi-provider applications.
 
-The project will encompass the following activities: 
+The project will encompass the following activities:
 - Specifying the requirements to be fulfilled by the reference platform
 - Specifying the test procedures needed to assess the fulfillment of the requirements
 - Building the appropriate system(s) architecture(s) for the software platform and specifying requirements for
