@@ -97,6 +97,7 @@ More details can be found [there](https://www.git-scm.com/book/en/v2/Distributed
 * Run tests on the hardware you want to install the distribution and ensure that no regression are seen (ex: cukinia)
 * Provide the hardware specification
 * Write or adapt tests as needed
+* When possible a cukinia test must be provided for each new functionnality
 
 #### Documentation
 
