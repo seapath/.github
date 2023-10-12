@@ -131,9 +131,11 @@ The Technical Steering Committee (TSC) is composed of voting members elected by 
 
 #### Members
 SEAPATH TSC voting members are:
-- Eloi Bail (https://github.com/ebail)
-- Robin Massink (https://github.com/robidev)
-- Aurelien Watare (https://github.com/watare)
+- RTE: Bastien Desbos                                                   
+- GE: David Macdonald                                                   
+- Savoir-faire Linux: Eloi Bail                                         
+- Schneider: Alban Denat                                                
+- Welotec: Jan Hille
 
 #### Voting
 While the Project aims to operate as a consensus-based community, if any TSC decision requires a vote to move the Project forward, the voting members of the TSC will vote on a one vote per voting member basis. The simple majority is needed to approve proposals.
