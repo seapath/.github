@@ -33,7 +33,7 @@ This project applies the [LF Energy Code of Conduct](https://wiki.lfenergy.org/d
 
 By contributing to the SEAPATH project, you accept and agree to the following terms and conditions for your present and future contributions submitted to SEAPATH.
 
-All contributions to this project are licensed under the license stipulated at the corresponding sub-repository. Except where otherwise explicitely indicated, SEAPATH is an open source project licensed under the [Apache License, version 2.0](http://www.apache.org/licenses/LICENSE-2.0/). 
+All contributions to this project are licensed under the license stipulated at the corresponding sub-repository. Except where otherwise explicitely indicated, SEAPATH is an open source project licensed under the [Apache License, version 2.0](http://www.apache.org/licenses/LICENSE-2.0/).
 
 The project requires the use of the [Developer Certificate of Origin (DCO)](https://developercertificate.org/). The DCO is a legally binding statement asserting that you have the right to submit your contribution and to license it under the project's applicable license.
 
@@ -58,7 +58,7 @@ Note that checks will be performed during the integration in order to require th
 There are many ways to contribute:
 
 - By participating in the TSC meeting passively and/or actively so that you can provide technical advice, understand what the project priorities are, and identify contributions you could make ( you can know when the next TSC meeting take place and eventually suscribe to the mailing list [here](https://lists.lfenergy.org/g/SEAPATH-TSC)
-- By promoting the project  
+- By promoting the project
 - By proposing new features or improvements/corrections to the project directly on [github.com](https://github.com/seapath) following the best practices detailed below
 
 ### Contributing code
@@ -106,52 +106,5 @@ More details can be found [there](https://www.git-scm.com/book/en/v2/Distributed
 #### English language convention
 
 The convention for all the project's documents, including code documentation, website, is to write American English.
-A list of spelling differences between British and American English is available 
+A list of spelling differences between British and American English is available
 [here](https://www.britishcouncilfoundation.id/en/english/articles/british-and-american-english) for example.
-
-## Project Governance
-
-#### Project Owner
-
-SEAPATH is part of the [LF Energy Foundation](https://www.lfenergy.org/), a project of The Linux Foundation that supports open source innovation projects within the energy and electricity sectors.
-
-#### Technical Charter
-
-The Project's [Technical Charter](https://github.com/lf-energy/foundation/blob/main/project_charters/seapath_charter.pdf) sets forth the responsibilities and procedures for technical contribution to, and oversight of, the SEAPATH Project.
-
-#### Committers
-
-Committers are contributors who have made several valuable contributions to the project and are now relied upon to both write code directly to the repository and screen the contributions of others. In many cases they are programmers but it is also possible that they contribute in a different role. Typically, a committer will focus on a specific aspect of the project, and will bring a level of expertise and understanding that earns them the respect of the community and the project owner.A committer cannot validate his own ccontribution
-
-- Committers/Reviewers: Eloi Bail,Mathieu Dupré, Aurélien Wataré, Florent Carli, Robin Massink
-
-#### Technical Steering Committee
-
-The Technical Steering Committee (TSC) is composed of voting members elected by the active Committers as described in the project’s Technical Charter. The TSC is responsible for the technical direction of the project.
-
-#### Members
-SEAPATH TSC voting members are:
-- RTE: Bastien Desbos                                                   
-- GE: David Macdonald                                                   
-- Savoir-faire Linux: Eloi Bail                                         
-- Schneider: Alban Denat                                                
-- Welotec: Jan Hille
-
-#### Voting
-While the Project aims to operate as a consensus-based community, if any TSC decision requires a vote to move the Project forward, the voting members of the TSC will vote on a one vote per voting member basis. The simple majority is needed to approve proposals.
-The preferred way to vote is to create a poll [here](https://lists.lfenergy.org/g/SEAPATH-tsc/addpoll).
-
-#### Responsibilities
-The project is split into several repositories. There is at least one Committer in charge of each repository. By "in charge", we mean:
--	best effort to review the pull request,
--	best effort to resolve issues,
--	building and publishing the releases, including writing the release notes and informing the community,
--	in case of unability to perform the above tasks, the Committer in charge has to ask the TSC through the list [SEAPATH-tsc@lists.lfenergy.org](mailto:SEAPATH-tsc@lists.lfenergy.org) to find another Committer to review the pull request, resolve the issue or build and publish the release.  
-
-
-
-#### Contributors
-
-Contributors include anyone in the technical community that contributes code, documentation, or other technical artifacts to the Project.
-
-Anyone can become a contributor. There is no expectation of commitment to the project, no specific skill requirements and no selection process. To become a contributor, a community member simply has to perform one or more actions that are beneficial to the project.
