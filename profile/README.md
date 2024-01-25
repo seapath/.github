@@ -1,4 +1,5 @@
 # SEAPATH - (S)oftware (E)nabled (A)utomation (P)latform and (A)rtifacts (TH)erein
+
 [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/5398/badge)](https://bestpractices.coreinfrastructure.org/projects/5398)
 
 [![SonarCloud on VM Manager](https://sonarcloud.io/api/project_badges/measure?project=seapath_vm_manager&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=seapath_vm_manager)
@@ -76,4 +77,4 @@ Interested in contributing? Please read carefully the [CONTRIBUTING guidelines](
 
 # Governance
 
-SEAPATH is a project hosted by the [LF Energy Foundation](https://lfenergy.org). This project's techincal charter is located at [https://github.com/lf-energy/foundation/blob/main/project_charters/seapath_charter.pdf](https://github.com/lf-energy/foundation/blob/main/project_charters/seapath_charter.pdf) and has established it's own processes for managing day-to-day processes in the project at [Project Governance](https://github.com/seapath/contributing/blob/master/CONTRIBUTING.md#project-governance).
+SEAPATH is a project hosted by the [LF Energy Foundation](https://lfenergy.org). This project's techincal charter is located in [https://github.com/lf-energy/foundation/blob/main/project_charters/seapath_charter.pdf](https://github.com/lf-energy/foundation/blob/main/project_charters/seapath_charter.pdf) and has established it's own processes for managing day-to-day processes in the project at [Project Governance](https://github.com/seapath/.github/blob/main/seapath_governance.md)

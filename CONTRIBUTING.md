@@ -27,13 +27,13 @@ The following is a set of guidelines for contributing to the SEAPATH project. Th
 
 ## Code of Conduct
 
-This project applies the [LF Energy Code of Conduct](https://wiki.lfenergy.org/display/HOME/Code+of+Conduct). By participating, you are expected to uphold this code. Please report unacceptable behavior to the project's Technical Steering Committee [SEAPATH-tsc@lists.lfenergy.org](mailto:SEAPATH-tsc@lists.lfenergy.org).
+This project applies the [LF Energy Code of Conduct](https://wiki.lfenergy.org/display/HOME/Code+of+Conduct). By participating, you are expected to uphold this code. Please report unacceptable behavior to the project's Technical Steering Committee [SEAPATH-TSC@lists.lfenergy.org](mailto:SEAPATH-TSC@lists.lfenergy.org).
 
 ## License and Developer Certificate of Origin
 
 By contributing to the SEAPATH project, you accept and agree to the following terms and conditions for your present and future contributions submitted to SEAPATH.
 
-All contributions to this project are licensed under the license stipulated at the corresponding sub-repository. Except where otherwise explicitely indicated, SEAPATH is an open source project licensed under the [Apache License, version 2.0](http://www.apache.org/licenses/LICENSE-2.0/).
+All contributions to this project are licensed under the license stipulated at the corresponding sub-repository. Except where otherwise explicitely indicated, SEAPATH is an open source project licensed under the [Apache License, version 2.0](http://www.apache.org/licenses/LICENSE-2.0).
 
 The project requires the use of the [Developer Certificate of Origin (DCO)](https://developercertificate.org/). The DCO is a legally binding statement asserting that you have the right to submit your contribution and to license it under the project's applicable license.
 
