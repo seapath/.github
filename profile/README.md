@@ -10,6 +10,7 @@
 
 [![ShellCheck on build_debian_iso](https://github.com/seapath/build_debian_iso/actions/workflows/shellcheck-weekly.yml/badge.svg)](https://github.com/seapath/build_debian_iso/actions/workflows/shellcheck-weekly.yml)
 [![Ansible-lint on Ansible repository](https://github.com/seapath/ansible/actions/workflows/ansible-lint-debian-weekly.yml/badge.svg)](https://github.com/seapath/ansible/actions/workflows/ansible-lint-debian-weekly.yml )
+[![Complete CI on Debian Ansible repository](https://github.com/seapath/ansible/actions/workflows/ci-debian-weekly.yml/badge.svg)](https://github.com/seapath/ansible/actions/workflows/ci-debian-weekly.yml)
 
 ## Mission
 
