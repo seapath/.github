@@ -26,7 +26,7 @@ Have your submission approved by the committer(s) and merged into the codebase.
 
 Committers are contributors who have made several valuable contributions to the project and are now relied upon to both write code directly to the repository and screen the contributions of others. In many cases, they are programmers, but it is also possible that they contribute in a different role. Typically, a committer will focus on a specific aspect of the project and bring a level of expertise and understanding that earns them the respect of the community and the project owner. A committer cannot validate his own contribution
 
-- Committers/Reviewers: Eloi Bail, Mathieu Dupré, Aurélien Wataré, Florent Carli, Robin Massink, Erwann Roussy
+- Committers/Reviewers: Eloi Bail, Mathieu Dupré,Florent Carli, Erwann Roussy
 
 ### Process for becoming a committer
 
