@@ -68,9 +68,6 @@ You can connect with the community in a variety of ways...
 - [LINK TO MAILING LIST](https://lists.lfenergy.org/g/SEAPATH-TSC)
 - [SEAPATH channel on LF Energy Slack](https://lfenergy.slack.com/archives/C01EH8ZLJTC)
 
-## [Roadmap](/ROADMAP.md)
-
-
 ## Contributing
 
 Interested in contributing? Please read carefully the [CONTRIBUTING guidelines](/CONTRIBUTING.md).
