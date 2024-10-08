@@ -51,10 +51,6 @@ SEAPATH currently or will include the following features:
   - Continuous integration: Every development on the platform must pass more than 700 unit tests, real time tests and latency tests.
   - Testing-driven cybersecurity approach: each requirement is ensured through extensive unit tests.
 
-## Want to give it a try ?
-
- You can start from [here](https://github.com/seapath/seapath-architecture)
-
 ## Background
 
 Due to the Energy Transition the use of power transmission and distribution grids is changing. The control architecture of
@@ -68,6 +64,20 @@ local systems and processes. Thus the design of the new DSAS will have to allow 
 interoperability and scalability compared to the previous generations.
 
 Virtualization is seen as a key innovation in order to fulfill these needs.
+
+## Start with SEAPAPTH
+
+SEAPATH comes with two main distributions, Yocto or Debian. You can find a comparison of both versions on the wiki [SEAPATH-Debian or SEAPATH-Yocto](https://lf-energy.atlassian.net/wiki/x/7I7lAQ)
+
+Once you have chosen your SEAPATH distribution, you can build your iso file
+- [yocto_bsp](https://github.com/seapath/yocto-bsp) for Yocto
+- [build_debian_iso](https://github.com/seapath/build_debian_iso) for Debian
+
+Then, you have to configure your machines with the ansible repository
+- [main branch](https://github.com/seapath/ansible) for Yocto
+- [debiancentos branch](https://github.com/seapath/ansible/tree/debiancentos) for Debian
+
+More information on the [SEAPATH wiki](https://lf-energy.atlassian.net/wiki/x/C4DlAQ)
 
 ## Discussion
 
