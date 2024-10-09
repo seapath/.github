@@ -14,7 +14,7 @@
 
 ## The project
 
-SEAPATH is an open source software hypervisor designed for IEC61850 Digital Substation Automation Systems. It has been designed and built as an industrial-grade solution dedicated to the critical context of digital stations, meeting the challenges of interoperability, standards compliance and [cybersecurity constraints](https://lfenergy.org/lf-energy-seapath-project-completes-security-audit-and-threat-model/).
+LF Energy SEAPATH is an open source software hypervisor designed for IEC61850 Digital Substation Automation Systems. It has been designed and built as an industrial-grade solution dedicated to the critical context of digital stations, meeting the challenges of interoperability, standards compliance and [cybersecurity constraints](https://lfenergy.org/lf-energy-seapath-project-completes-security-audit-and-threat-model/).
 
 SEAPATH aims to host and run VPAC (Virtualized Protection, Automation and Control) applications for the power grid industry (and potentially beyond).
 
@@ -22,7 +22,7 @@ SEAPATH is a best-of-breed technology that combines open source components to cr
 
 SEAPATH is a collaborative project, bringing together a diverse community of experts spanning embedded Linux, IT, electrical engineering backgrounds, fostering IT/OT convergence.
 
-SEAPATH is an acronym for Software Enabled Automation Platform and Artifacts (Therein). It is part of the LF Energy Digital Substations Special Interest Group.
+SEAPATH is an acronym for Software Enabled Automation Platform and Artifacts (Therein). It is under the governance of the LF Energy and part of the LF Energy Digital Substations Special Interest Group.
 
 ## Features
 
