@@ -90,6 +90,10 @@ You can connect with the community in a variety of ways...
 
 Interested in contributing? Please read carefully the [CONTRIBUTING guidelines](/CONTRIBUTING.md).
 
-# Governance
+## Security
+
+For any security related questions or submissions, please review the [security policies](https://github.com/seapath/.github/blob/main/SECURITY.md).
+
+## Governance
 
 SEAPATH is a project hosted by the [LF Energy Foundation](https://lfenergy.org). This project's techincal charter is located in [https://github.com/lf-energy/foundation/blob/main/project_charters/seapath_charter.pdf](https://github.com/lf-energy/foundation/blob/main/project_charters/seapath_charter.pdf) and has established it's own processes for managing day-to-day processes in the project at [Project Governance](https://github.com/seapath/.github/blob/main/seapath_governance.md)
