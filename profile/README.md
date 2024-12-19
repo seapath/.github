@@ -2,15 +2,14 @@
 
 [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/5398/badge)](https://bestpractices.coreinfrastructure.org/projects/5398)
 
+[![CI Yocto Weekly](https://github.com/seapath/ansible/actions/workflows/ci-yocto-weekly.yml/badge.svg)](https://github.com/seapath/ansible/actions/workflows/ci-yocto-weekly.yml)
+[![CI Debian Weekly](https://github.com/seapath/ansible/actions/workflows/ci-debian-weekly.yml/badge.svg)](https://github.com/seapath/ansible/actions/workflows/ci-debian-weekly.yml)
+
 [![SonarCloud on VM Manager](https://sonarcloud.io/api/project_badges/measure?project=seapath_vm_manager&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=seapath_vm_manager)
 [![SonarCloud on python3-setup-ovs](https://sonarcloud.io/api/project_badges/measure?project=seapath_python3-setup-ovs&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=seapath_python3-setup-ovs)
 
-[![CI Yocto](https://github.com/seapath/ansible/actions/workflows/ci-yocto-weekly.yml/badge.svg)](https://github.com/seapath/ansible/actions/workflows/ci-yocto-weekly.yml)
-[![Ansible Lint](https://github.com/seapath/ansible/actions/workflows/ansible-lint-yocto-weekly.yml/badge.svg)](https://github.com/seapath/ansible/actions/workflows/ansible-lint-yocto-weekly.yml)
 
 [![ShellCheck on build_debian_iso](https://github.com/seapath/build_debian_iso/actions/workflows/shellcheck-weekly.yml/badge.svg)](https://github.com/seapath/build_debian_iso/actions/workflows/shellcheck-weekly.yml)
-[![Ansible-lint on Ansible repository](https://github.com/seapath/ansible/actions/workflows/ansible-lint-debian-weekly.yml/badge.svg)](https://github.com/seapath/ansible/actions/workflows/ansible-lint-debian-weekly.yml )
-[![Complete CI on Debian Ansible repository](https://github.com/seapath/ansible/actions/workflows/ci-debian-weekly.yml/badge.svg)](https://github.com/seapath/ansible/actions/workflows/ci-debian-weekly.yml)
 
 ## The project
 
@@ -73,9 +72,8 @@ Once you have chosen your SEAPATH distribution, you can build your iso file
 - [yocto_bsp](https://github.com/seapath/yocto-bsp) for Yocto
 - [build_debian_iso](https://github.com/seapath/build_debian_iso) for Debian
 
-Then, you have to configure your machines with the ansible repository
-- [main branch](https://github.com/seapath/ansible) for Yocto
-- [debiancentos branch](https://github.com/seapath/ansible/tree/debiancentos) for Debian
+Then, you have to configure your machines with the [ansible](https://github.com/seapath/ansible) repository.
+Both distributions are configured using the main branch.
 
 More information on the [SEAPATH wiki](https://lf-energy.atlassian.net/wiki/x/C4DlAQ)
 
