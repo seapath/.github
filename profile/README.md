@@ -64,7 +64,7 @@ interoperability and scalability compared to the previous generations.
 
 Virtualization is seen as a key innovation in order to fulfill these needs.
 
-## Start with SEAPAPTH
+## Start with SEAPATH
 
 SEAPATH comes with two main distributions, Yocto or Debian. You can find a comparison of both versions on the wiki [SEAPATH-Debian or SEAPATH-Yocto](https://lf-energy.atlassian.net/wiki/x/7I7lAQ)
 
