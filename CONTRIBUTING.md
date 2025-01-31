@@ -57,7 +57,7 @@ Note that checks will be performed during the integration in order to require th
 
 There are many ways to contribute:
 
-- By participating in the TSC meeting passively and/or actively so that you can provide technical advice, understand what the project priorities are, and identify contributions you could make ( you can know when the next TSC meeting take place and eventually suscribe to the mailing list [here](https://lists.lfenergy.org/g/SEAPATH-TSC)
+- By participating in the TSC meeting passively and/or actively so that you can provide technical advice, understand what the project priorities are, and identify contributions you could make ( you can know when the next TSC meeting take place and eventually suscribe to the mailing list [here](https://lists.lfenergy.org/g/SEAPATH)
 - By promoting the project
 - By proposing new features or improvements/corrections to the project directly on [github.com](https://github.com/seapath) following the best practices detailed below
 
