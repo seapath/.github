@@ -81,7 +81,7 @@ More information on the [SEAPATH wiki](https://lf-energy.atlassian.net/wiki/x/C4
 
 You can connect with the community in a variety of ways...
 
-- [LINK TO MAILING LIST](https://lists.lfenergy.org/g/SEAPATH-TSC)
+- [LINK TO MAILING LIST](https://lists.lfenergy.org/g/SEAPATH)
 - [SEAPATH channel on LF Energy Slack](https://lfenergy.slack.com/archives/C01EH8ZLJTC)
 
 ## Contributing
