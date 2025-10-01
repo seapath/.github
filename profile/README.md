@@ -66,16 +66,18 @@ Virtualization is seen as a key innovation in order to fulfill these needs.
 
 ## Start with SEAPATH
 
-SEAPATH comes with two main distributions, Yocto or Debian. You can find a comparison of both versions on the wiki [SEAPATH-Debian or SEAPATH-Yocto](https://lf-energy.atlassian.net/wiki/x/7I7lAQ)
+The wiki section [Starting with SEAPATH](https://lf-energy.atlassian.net/wiki/spaces/SEAP/pages/426377387/Starting+with+SEAPATH?atlOrigin=eyJpIjoiMTNhNjk2OTJlNjAzNDYzYzk2Yjk3ZTZmNzI4YWEyZWIiLCJwIjoiYyJ9) describes SEAPATH prerequisites and provide a step-by-step guide for beginners.
 
-Once you have chosen your SEAPATH distribution, you can build your iso file
-- [yocto_bsp](https://github.com/seapath/yocto-bsp) for Yocto
-- [build_debian_iso](https://github.com/seapath/build_debian_iso) for Debian
+Below is a quick overview of the installation steps of SEAPATH and a link to relevant pages or repository.
+- First, SEAPATH comes with two main distributions, Yocto and Debian. Choose your prefferred version by reading the wiki page [SEAPATH-Debian or SEAPATH-Yocto](https://lf-energy.atlassian.net/wiki/x/7I7lAQ).
+- Then, source your hardware following the wiki section [SEAPATH prerequisites](https://lf-energy.atlassian.net/wiki/spaces/SEAP/pages/421527633/SEAPATH+prerequisites?atlOrigin=eyJpIjoiYjU0N2RkNGRiZDM0NGQxYmJhYjBhN2M3ZTQ1NzMyNDkiLCJwIjoiYyJ9).
+- Build your ISO file(s) using
+    - [yocto_bsp](https://github.com/seapath/yocto-bsp) for Yocto
+    - [build_debian_iso](https://github.com/seapath/build_debian_iso) for Debian
+- If you go for a cluster configuration, wire your machine following [Cluster machine wiring](https://lf-energy.atlassian.net/wiki/spaces/SEAP/pages/427622474/Cluster+setup+and+deployment#Machine-wiring).
+- Finally, configure your machines using the [Ansible](https://github.com/seapath/ansible) repository.
 
-Then, you have to configure your machines with the [ansible](https://github.com/seapath/ansible) repository.
-Both distributions are configured using the main branch.
-
-More information on the [SEAPATH wiki](https://lf-energy.atlassian.net/wiki/x/C4DlAQ)
+More information on the [SEAPATH wiki](https://lf-energy.atlassian.net/wiki/x/C4DlAQ).
 
 ## Discussion
 
