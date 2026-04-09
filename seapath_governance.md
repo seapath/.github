@@ -57,9 +57,9 @@ The Technical Steering Committee (TSC) is composed of voting members elected by 
 ### Members
 SEAPATH TSC voting members are:
 - RTE: Bastien Desbos
-- GE: David Macdonald
+- GE Vernova: David Macdonald
 - Savoir-faire Linux: Eloi Bail
-- Schneider: Alban Denat
+- Schneider: Camille Bloch
 - Welotec: Jan Hille
 
 # Release Process
