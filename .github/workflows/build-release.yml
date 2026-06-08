@@ -1,0 +1,100 @@
+name: Build SEAPATH Release
+run-name: Build SEAPATH with id ${{ inputs.build_id || github.run_id }}
+
+on:
+  workflow_dispatch:
+    inputs:
+      build_id:
+        type: string
+        required: false
+        description: Release build identifier shared across all projects.
+
+permissions: read-all
+
+concurrency:
+  group: seapath-release-${{ inputs.build_id || github.run_id }}
+  cancel-in-progress: false
+
+jobs:
+  prepare:
+    name: Prepare
+    runs-on: ubuntu-slim
+    outputs:
+      build-id: ${{ steps.build-id.outputs.BUILD_ID }}
+    steps:
+      - name: Set build ID (default to timestamp if not provided)
+        id: build-id
+        run: |
+          BUILD_ID='${{ inputs.build_id }}'
+          if [ -z "$BUILD_ID" ]; then
+            BUILD_ID=$(date +%F-%H-%M-%S)
+          fi
+          echo "BUILD_ID=$BUILD_ID" >> "$GITHUB_OUTPUT"
+
+  repositories-orchestration:
+    name: Repositories build orchestration
+    needs: prepare
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        repository: [yocto-bsp, build_debian_iso, seapath-installer]
+      # If one repository fails to build, no need to continue running this
+      # workflow since the installer won't be complete anyway.
+      # Would be interesting to also stop the other dispatched build workflows
+      # but this requires https://github.com/benc-uk/workflow-dispatch/issues/95.
+      fail-fast: true
+    steps:
+      - name: Create GitHub App token
+        id: app-token
+        uses: actions/create-github-app-token@v3
+        with:
+          client-id: ${{ vars.APP_CLIENT_ID }}
+          private-key: ${{ secrets.APP_PRIVATE_KEY }}
+          owner: SEAPATH
+          repositories: |
+            ${{ matrix.repository }}
+          permission-actions: write
+
+      - name: Dispatch and wait for ${{ matrix.repository }} build
+        uses: benc-uk/workflow-dispatch@31e2b3319479a63f0ab15bf800eff9e913504e26
+        with:
+          workflow: build-and-s3-upload.yml
+          repo: SEAPATH/${{ matrix.repository }}
+          inputs: '{ "build_id": "${{ needs.prepare.outputs.build-id }}" }'
+          token: '${{ steps.app-token }}'
+          sync-status: true
+          wait-for-completion: true
+          wait-interval-seconds: 30
+          # GH Actions maximum job time is 6 hours. We keep a few spare seconds
+          # to complete cleanup steps.
+          wait-timeout-seconds: 21500
+
+  live-installer-orchestration:
+    name: Live Installer build orchestration
+    needs:
+      - prepare
+      - repositories-orchestration
+    runs-on: ubuntu-latest
+    steps:
+      - name: Create GitHub App token
+        id: app-token
+        uses: actions/create-github-app-token@v3
+        with:
+          client-id: ${{ vars.APP_CLIENT_ID }}
+          private-key: ${{ secrets.APP_PRIVATE_KEY }}
+          owner: SEAPATH
+          repositories: |
+            seapath-live-installer
+          permission-actions: write
+
+      - name: Dispatch and wait for Live Installer build
+        uses: benc-uk/workflow-dispatch@31e2b3319479a63f0ab15bf800eff9e913504e26
+        with:
+          workflow: build-and-s3-upload.yml
+          repo: SEAPATH/seapath-live-installer
+          inputs: '{ "build_id": "${{ needs.prepare.outputs.build-id }}" }'
+          token: '${{ steps.app-token }}'
+          sync-status: true
+          wait-for-completion: true
+          wait-interval-seconds: 30
+          wait-timeout-seconds: 21500
