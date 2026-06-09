@@ -61,7 +61,7 @@ jobs:
           workflow: build-and-s3-upload.yml
           repo: SEAPATH/${{ matrix.repository }}
           inputs: '{ "build_id": "${{ needs.prepare.outputs.build-id }}" }'
-          token: '${{ steps.app-token }}'
+          token: '${{ steps.app-token.outputs.token }}'
           sync-status: true
           wait-for-completion: true
           wait-interval-seconds: 30
@@ -93,7 +93,7 @@ jobs:
           workflow: build-and-s3-upload.yml
           repo: SEAPATH/seapath-live-installer
           inputs: '{ "build_id": "${{ needs.prepare.outputs.build-id }}" }'
-          token: '${{ steps.app-token }}'
+          token: '${{ steps.app-token.outputs.token }}'
           sync-status: true
           wait-for-completion: true
           wait-interval-seconds: 30
