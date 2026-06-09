@@ -8,6 +8,11 @@ on:
         type: string
         required: false
         description: Release build identifier shared across all projects.
+      yocto_branch:
+        type: string
+        required: true
+        default: wrynose
+        description: Branch of the yocto-bsp repository to build.
 
 permissions: read-all
 
@@ -62,6 +67,7 @@ jobs:
           repo: SEAPATH/${{ matrix.repository }}
           inputs: '{ "build_id": "${{ needs.prepare.outputs.build-id }}" }'
           token: '${{ steps.app-token.outputs.token }}'
+          ref: "${{ matrix.repository == 'yocto-bsp' && inputs.yocto_branch || 'main' }}"
           sync-status: true
           wait-for-completion: true
           wait-interval-seconds: 30
@@ -94,6 +100,7 @@ jobs:
           repo: SEAPATH/seapath-live-installer
           inputs: '{ "build_id": "${{ needs.prepare.outputs.build-id }}" }'
           token: '${{ steps.app-token.outputs.token }}'
+          ref: 'main'
           sync-status: true
           wait-for-completion: true
           wait-interval-seconds: 30
