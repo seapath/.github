@@ -42,7 +42,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        repository: [yocto-bsp, build_debian_iso, seapath-installer]
+        repository: [yocto-bsp, build_debian_iso, kiwi-descriptions, seapath-installer]
       # If one repository fails to build, no need to continue running this
       # workflow since the installer won't be complete anyway.
       # Would be interesting to also stop the other dispatched build workflows
