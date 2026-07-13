@@ -11,6 +11,12 @@
 
 [![ShellCheck on build_debian_iso](https://github.com/seapath/build_debian_iso/actions/workflows/shellcheck-weekly.yml/badge.svg)](https://github.com/seapath/build_debian_iso/actions/workflows/shellcheck-weekly.yml)
 
+[![LFX Health Score](https://insights.linuxfoundation.org/api/badge/health-score?project=seapath)](https://insights.linuxfoundation.org/project/seapath)
+
+[![LFX Contributors](https://insights.linuxfoundation.org/api/badge/contributors?project=seapath)](https://insights.linuxfoundation.org/project/seapath)
+
+[![LFX Active Contributors](https://insights.linuxfoundation.org/api/badge/active-contributors?project=seapath)](https://insights.linuxfoundation.org/project/seapath)
+
 ## The project
 
 LF Energy SEAPATH is an open source software hypervisor designed for IEC61850 Digital Substation Automation Systems. It has been designed and built as an industrial-grade solution dedicated to the critical context of digital stations, meeting the challenges of interoperability, standards compliance and [cybersecurity constraints](https://lfenergy.org/lf-energy-seapath-project-completes-security-audit-and-threat-model/).
