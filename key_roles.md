@@ -1,6 +1,9 @@
 # Committers:
-Florent Carli: principal committer for the debian branch.<br>
-Mathieu Dupré: principal committer for the yocto branch.
+Florent Carli: principal committer for the build_debian_iso repository.<br>
+Mathieu Dupré: principal committer for the Yocto repositories.<br>
+Erwann Roussy: committer for the Yocto repositories.
+
+See [COMMITTERS](COMMITTERS.md) for the full per-repository assignment.
 
 # Lead:
 Eloi Bail, Responsible for the overall project health.
