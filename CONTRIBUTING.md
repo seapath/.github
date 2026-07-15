@@ -17,6 +17,7 @@ The following is a set of guidelines for contributing to the SEAPATH project. Th
   * [Testing](#testing)
   * [Documentation](#documentation)
   * [English language convention](#english-language-convention)
+  * [Code Review](#code-review)
 
 [Project Governance](#project-governance)
   * [Project Owner](#project-owner)
@@ -108,3 +109,43 @@ More details can be found [there](https://www.git-scm.com/book/en/v2/Distributed
 The convention for all the project's documents, including code documentation, website, is to write American English.
 A list of spelling differences between British and American English is available
 [here](https://www.britishcouncilfoundation.id/en/english/articles/british-and-american-english) for example.
+
+#### Code Review
+
+All contributions are reviewed through GitHub Pull Requests before being merged into active branches.
+The review process is governed by branch protection rules enforced on all SEAPATH repositories.
+
+**How code review is conducted**
+
+- All changes must be submitted as a Pull Request; direct pushes and force-pushes to the default branch are not permitted.
+- A committer reviews the PR and leaves comments, requests changes, or approves it.
+- A committer cannot approve their own contribution.
+- If new commits are pushed after an approval, the approval is automatically dismissed and a fresh review is required.
+- The person who pushed the last commit to the PR cannot be the approver.
+- Only a linear history is permitted (squash or rebase merge); merge commits are not allowed.
+
+**What must be checked during review**
+
+The reviewer must verify that the contribution:
+
+- Is correct and achieves its stated purpose without introducing regressions.
+- Follows the project code style and conventions (see [Styleguides](#styleguides)).
+- Contains well-structured, atomic commits with properly formatted messages (see [Git workflow guidelines](#git-workflow-guidelines)).
+- Includes a valid `Signed-off-by` line on every commit (DCO compliance).
+- Provides or updates tests as required (see [Testing](#testing)).
+- Updates documentation where applicable (see [Documentation](#documentation)).
+- Does not introduce obvious security vulnerabilities.
+- Respects the project [Code of Conduct](CODE_OF_CONDUCT.md).
+
+**What is required for a PR to be acceptable**
+
+A PR may be merged only when all of the following conditions are satisfied:
+
+1. **At least one committer approval** from a committer who is not the author of the last pushed commit.
+2. **All required CI checks pass.** The DCO sign-off check is required for every repository.
+   Additional automated checks are run per repository:
+   - `ansible`: ansible-lint and full hardware integration tests (Debian and Yocto configurations).
+   - `seapath-yocto`: Yocto build for all supported image flavors (`host_efi`, `host_standalone_efi`,
+     `guest_efi`, `observer_efi`).
+   - `build_debian_iso`: ShellCheck static analysis.
+3. **No unresolved blocking concerns** raised during the review.
