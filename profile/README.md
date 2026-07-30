@@ -4,6 +4,8 @@
 
 [![CI Yocto Weekly](https://github.com/seapath/ansible/actions/workflows/ci-yocto-weekly.yml/badge.svg)](https://github.com/seapath/ansible/actions/workflows/ci-yocto-weekly.yml)
 [![CI Debian Weekly](https://github.com/seapath/ansible/actions/workflows/ci-debian-weekly.yml/badge.svg)](https://github.com/seapath/ansible/actions/workflows/ci-debian-weekly.yml)
+[![CI SLES Weekly](https://github.com/seapath/ansible/actions/workflows/ci-sles-weekly.yml/badge.svg)](https://github.com/seapath/ansible/actions/workflows/ci-sles-weekly.yml)
+
 
 [![SonarCloud on VM Manager](https://sonarcloud.io/api/project_badges/measure?project=seapath_vm_manager&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=seapath_vm_manager)
 [![SonarCloud on python3-setup-ovs](https://sonarcloud.io/api/project_badges/measure?project=seapath_python3-setup-ovs&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=seapath_python3-setup-ovs)
