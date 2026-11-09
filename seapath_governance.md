@@ -65,6 +65,12 @@ The project committers will elect a lead (and optionally a co-lead) who will be 
 
 The Technical Steering Committee (TSC) is composed of voting members elected by the active Committers as described in the project’s Technical Charter. The TSC is responsible for the technical direction of the project.
 
+### TSC Chair
+
+The TSC will hold a regular Chair election once per calendar year, preferably at its first meeting of the year. The election follows the [TSC voting rules](#conflict-resolution-and-voting).
+
+The incumbent may be re-elected without a limit on the number of terms and continues to serve until resignation or replacement by the TSC, in accordance with the Technical Charter. The TSC may hold an additional election if the Chair resigns or the TSC decides to replace the Chair.
+
 ### Members
 SEAPATH TSC voting members are:
 - RTE: Bastien Desbos
