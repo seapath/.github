@@ -49,6 +49,14 @@ A Committer may resign and choose emeritus status. A Committer may also be remov
 
 When a Committer resigns or is removed, update the active assignments in [COMMITTERS.md](COMMITTERS.md), arrange coverage of their responsibilities, and notify whoever manages GitHub permissions to update the committers team. Record emeritus status in COMMITTERS.md if the former Committer chooses to be listed.
 
+### Annual review of Committers
+
+At least once a year, the TSC will organize a vote of existing Committers on a proposal to confirm or update the Committer list and repository assignments. All existing Committers will be invited to participate. The TSC may organize additional votes when needed.
+
+A proposal to confirm the current list or change assignments requires approval by a majority of the existing Committers. A failed confirmation does not by itself change anyone's status or assignments. Each admission or removal must be decided separately under the approval requirements above; a Committer does not vote on their own removal.
+
+Record approved changes in [COMMITTERS.md](COMMITTERS.md) and update GitHub permissions as needed.
+
 ## Lead
 
 The project committers will elect a lead (and optionally a co-lead) who will be the primary point of contact for the SEAPATH project and representative to the TAC upon becoming an Active stage project. The lead(s) will be responsible for the overall project health and direction, coordination of activities, and working with other projects and committees as needed for the continued growth of the project.
