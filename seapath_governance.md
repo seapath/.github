@@ -68,7 +68,16 @@ Project releases will occur on a scheduled basis as agreed to by the committers.
 
 # Conflict resolution and voting
 
-While the Project aims to operate as a consensus-based community, if any TSC decision requires a vote to move the Project forward, the voting members of the TSC will vote on a one vote per voting member basis. The simple majority is needed to approve proposals.
+While the Project aims to operate as a consensus-based community, if any TSC decision requires a vote to move the Project forward, the voting members of the TSC will vote on a one vote per voting member basis.
+
+A quorum for a TSC meeting requires at least 50% of all TSC voting members to be present. The TSC may meet without a quorum, but it cannot make decisions at that meeting.
+
+Except for the cases below, a decision by vote at a meeting requires a majority of the voting members in attendance, provided a quorum is met. A decision by electronic vote without a meeting requires a majority of all TSC voting members.
+
+As specified in the Technical Charter:
+- A license exception requires a two-thirds vote of the entire TSC (section 7.c).
+- An amendment to the Charter requires a two-thirds vote of the entire TSC and approval by LF Projects (section 8.a).
+
 The preferred way to vote is to create a poll [here](https://lists.lfenergy.org/g/SEAPATH-tsc/addpoll).
 
 # Communication
