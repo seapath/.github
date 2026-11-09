@@ -91,6 +91,18 @@ As specified in the Technical Charter:
 
 The preferred way to vote is to create a poll [here](https://lists.lfenergy.org/g/SEAPATH-tsc/addpoll).
 
+### Decision procedures
+
+| Decision | Process | Approval requirement |
+| --- | --- | --- |
+| Code contributions | Committer review | At least one eligible Committer approval and the other requirements in [Code Review](CONTRIBUTING.md#code-review). |
+| TSC decisions other than the exceptions below, when a vote is required | TSC vote | At a meeting with a quorum, a majority of TSC voting members in attendance; by electronic vote without a meeting, a majority of all TSC voting members. |
+| License exceptions | TSC vote | Two-thirds of the entire TSC. |
+| Charter amendments | TSC vote and LF Projects approval | Two-thirds of the entire TSC and approval by LF Projects. |
+| Adding a Committer | Vote of existing Committers | A majority of existing Committers. |
+| Removing a Committer | Vote of the other existing Committers | A majority of the other existing Committers. |
+| Confirming the current Committer list or changing assignments during a review | Vote of existing Committers | A majority of existing Committers. |
+
 # Communication
 
 This project, just like all of open source, is a global community. In addition to the Code of Conduct, the SEAPATH project will keep all communication on open channels (mailing list, slack).
