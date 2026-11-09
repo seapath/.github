@@ -26,13 +26,13 @@ Have your submission approved by the committer(s) and merged into the codebase.
 
 Committers are contributors who have made several valuable contributions to the project and are now relied upon to both write code directly to the repository and screen the contributions of others. In many cases, they are programmers, but it is also possible that they contribute in a different role. Typically, a committer will focus on a specific aspect of the project and bring a level of expertise and understanding that earns them the respect of the community and the project owner. A committer cannot validate his own contribution
 
-- Committers/Reviewers: Eloi Bail, Mathieu Dupré,Florent Carli, Erwann Roussy
+The list of Committers and their repository assignments is maintained in [COMMITTERS.md](COMMITTERS.md).
 
 ### Process for becoming a committer
 
 Show your experience with the codebase through contributions and engagement on the community channels.
-Request to become a committer. To do this, create a new pull request that adds your name and details to the Committers File file and request existing committers to approve.
-After the majority of committers approve you, merge in the PR. Be sure to tag the whoever is managing the GitHub permissions to update the committers team on GitHub.
+To request to become a Committer, open a pull request adding your name and repository assignments to [COMMITTERS.md](COMMITTERS.md), and invite all existing Committers to vote on the request.
+A majority of the existing Committers must approve the request before the pull request is merged. Ask whoever manages GitHub permissions to update the committers team on GitHub.
 
 ### Responsibilities
 
@@ -43,8 +43,11 @@ The project is split into several repositories. There is at least one Committer 
 
 ### When does a committer lose committer status
 
-In case of unability to perform its responsability, the Committer in charge has to ask the TSC through the list [SEAPATH-TSC@lists.lfenergy.org](mailto:SEAPATH-TSC@lists.lfenergy.org) to find another Committer to review the pull request, resolve the issue or build and publish the release.
-If a committer is no longer interested or cannot perform the committer duties anymore, they should volunteer to be moved to emeritus status. In extreme cases, this can also occur by a vote of the committers per the voting process below.
+If a Committer is unable to perform their responsibilities, they must contact the TSC through [SEAPATH-TSC@lists.lfenergy.org](mailto:SEAPATH-TSC@lists.lfenergy.org) to arrange coverage by another Committer.
+
+A Committer may resign and choose emeritus status. A Committer may also be removed by majority approval of the other existing Committers.
+
+When a Committer resigns or is removed, update the active assignments in [COMMITTERS.md](COMMITTERS.md), arrange coverage of their responsibilities, and notify whoever manages GitHub permissions to update the committers team. Record emeritus status in COMMITTERS.md if the former Committer chooses to be listed.
 
 ## Lead
 
