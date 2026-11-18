@@ -60,23 +60,24 @@ SEAPATH currently or will include the following features:
 ## Background
 
 Transmission system operators (TSOs) operate and develop the high-voltage transmission networks that transport electricity
-over long distances. Distribution system operators (DSOs) operate the networks that deliver electricity from the transmission
-system to consumers and distributed generation. Their responsibilities and network structures vary by country, but both need
+over long distances. Distribution system operators (DSOs) operate the networks that connect consumers and distributed generation
+to the wider electricity system. Their responsibilities and network structures vary by country, but both need
 reliable ways to monitor and control substations and the equipment connected to them.
 
 Due to the Energy Transition, power flows are changing: generation is more distributed, infeed can occur at lower voltage
 levels, and flow patterns can change more quickly. Grid control therefore needs to support more dynamic protection settings,
 adaptive automation, faster extension, and coordination with central and local systems, while remaining dependable and interoperable.
 
-Digital Substation Automation Systems (DSAS) bring together protection, automation and control (PAC) functions, like 
-protection relays that detect faults and initiate circuit-breaker trips, and bay controllers that coordinate and monitor 
-substation equipment. These functions can have strict, bounded response-time requirements: for example, a protection 
-function may need to detect a fault and issue a trip without delay (not more than 50ms for most critical electrical network) 
-that would compromise protection of equipment or grid stability. This is real-time in the control-system sense: predictable, 
-bounded latency and low jitter matter, and missing a deadline can affect physical equipment and the power system. It is not 
-simply the general-purpose IT meaning of a responsive service or high average throughput. Consequently, virtualization must be 
-assessed for the timing and isolation guarantees of the complete system, including its hardware, network, configuration and 
-workload.
+Digital Substation Automation Systems (DSAS) bring together protection, automation and control (PAC) functions, like
+protection relays that detect faults and initiate circuit-breaker trips, and bay controllers that coordinate and monitor
+substation equipment. These functions can have strict, bounded response-time requirements: for example, time-critical protection
+applications may require fault detection and issuance of a trip command within a few tens of milliseconds. IEC TS 60255-216-1
+gives an example of less than 30 ms for busbar faults, measured from fault inception to the trip command issued to the
+circuit breaker; the applicable operate-time requirement depends on the protection application.
+This is real-time in the control-system sense: predictable, bounded latency and low jitter matter, and missing a deadline can
+affect physical equipment and the power system. It is not simply the general-purpose IT meaning of a responsive service or high
+average throughput. Consequently, virtualization must be assessed for the timing and isolation guarantees of the complete system,
+including its hardware, network, configuration and workload.
 
 Standards are part of this context. The IEC 61850 series specifies communication networks and systems for power utility
 automation, including data models and communication services used in substation automation. The IEC 62351 series addresses
