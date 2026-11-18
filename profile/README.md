@@ -1,4 +1,4 @@
-# SEAPATH - (S)ecure (E)dge (A)utomation (P)latform and (T)rusted (H)ypervisor
+# SEAPATH - (S)ecure (E)dge (A)utomation (P)latform (A)nd (T)rusted (H)ypervisor
 
 [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/5398/badge)](https://bestpractices.coreinfrastructure.org/projects/5398)
 
@@ -29,7 +29,7 @@ SEAPATH is a best-of-breed technology that combines open source components to cr
 
 SEAPATH is a collaborative project, bringing together a diverse community of experts spanning embedded Linux, IT, electrical engineering backgrounds, fostering IT/OT convergence.
 
-SEAPATH is an acronym for Secure Edge Automation Platform and Trusted Hypervisor. It is under the governance of the LF Energy and part of the LF Energy Digital Substations Special Interest Group.
+SEAPATH is an acronym for Secure Edge Automation Platform And Trusted Hypervisor. It is under the governance of the LF Energy and part of the LF Energy Digital Substations Special Interest Group.
 
 ## Features
 
