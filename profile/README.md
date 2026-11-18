@@ -1,4 +1,4 @@
-# SEAPATH - (S)oftware (E)nabled (A)utomation (P)latform and (A)rtifacts (TH)erein
+# SEAPATH - (S)ecure (E)dge (A)utomation (P)latform and (T)rusted (H)ypervisor
 
 [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/5398/badge)](https://bestpractices.coreinfrastructure.org/projects/5398)
 
