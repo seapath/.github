@@ -26,13 +26,13 @@ Have your submission approved by the committer(s) and merged into the codebase.
 
 Committers are contributors who have made several valuable contributions to the project and are now relied upon to both write code directly to the repository and screen the contributions of others. In many cases, they are programmers, but it is also possible that they contribute in a different role. Typically, a committer will focus on a specific aspect of the project and bring a level of expertise and understanding that earns them the respect of the community and the project owner. A committer cannot validate his own contribution
 
-- Committers/Reviewers: Eloi Bail, Mathieu Dupré,Florent Carli, Erwann Roussy
+The list of Committers and their repository assignments is maintained in [COMMITTERS.md](COMMITTERS.md).
 
 ### Process for becoming a committer
 
 Show your experience with the codebase through contributions and engagement on the community channels.
-Request to become a committer. To do this, create a new pull request that adds your name and details to the Committers File file and request existing committers to approve.
-After the majority of committers approve you, merge in the PR. Be sure to tag the whoever is managing the GitHub permissions to update the committers team on GitHub.
+To request to become a Committer, open a pull request adding your name and repository assignments to [COMMITTERS.md](COMMITTERS.md), and invite all existing Committers to vote on the request.
+A majority of the existing Committers must approve the request before the pull request is merged. Ask whoever manages GitHub permissions to update the committers team on GitHub.
 
 ### Responsibilities
 
@@ -43,8 +43,19 @@ The project is split into several repositories. There is at least one Committer 
 
 ### When does a committer lose committer status
 
-In case of unability to perform its responsability, the Committer in charge has to ask the TSC through the list [SEAPATH-TSC@lists.lfenergy.org](mailto:SEAPATH-TSC@lists.lfenergy.org) to find another Committer to review the pull request, resolve the issue or build and publish the release.
-If a committer is no longer interested or cannot perform the committer duties anymore, they should volunteer to be moved to emeritus status. In extreme cases, this can also occur by a vote of the committers per the voting process below.
+If a Committer is unable to perform their responsibilities, they must contact the TSC through [SEAPATH-TSC@lists.lfenergy.org](mailto:SEAPATH-TSC@lists.lfenergy.org) to arrange coverage by another Committer.
+
+A Committer may resign and choose emeritus status. A Committer may also be removed by majority approval of the other existing Committers.
+
+When a Committer resigns or is removed, update the active assignments in [COMMITTERS.md](COMMITTERS.md), arrange coverage of their responsibilities, and notify whoever manages GitHub permissions to update the committers team. Record emeritus status in COMMITTERS.md if the former Committer chooses to be listed.
+
+### Annual review of Committers
+
+At least once a year, the TSC will organize a vote of existing Committers on a proposal to confirm or update the Committer list and repository assignments. All existing Committers will be invited to participate. The TSC may organize additional votes when needed.
+
+A proposal to confirm the current list or change assignments requires approval by a majority of the existing Committers. A failed confirmation does not by itself change anyone's status or assignments. Each admission or removal must be decided separately under the approval requirements above; a Committer does not vote on their own removal.
+
+Record approved changes in [COMMITTERS.md](COMMITTERS.md) and update GitHub permissions as needed.
 
 ## Lead
 
@@ -53,6 +64,12 @@ The project committers will elect a lead (and optionally a co-lead) who will be 
 ## Technical Steering Committee
 
 The Technical Steering Committee (TSC) is composed of voting members elected by the active Committers as described in the project’s Technical Charter. The TSC is responsible for the technical direction of the project.
+
+### TSC Chair
+
+The TSC will hold a regular Chair election once per calendar year, preferably at its first meeting of the year. The election follows the [TSC voting rules](#conflict-resolution-and-voting).
+
+The incumbent may be re-elected without a limit on the number of terms and continues to serve until resignation or replacement by the TSC, in accordance with the Technical Charter. The TSC may hold an additional election if the Chair resigns or the TSC decides to replace the Chair.
 
 ### Members
 SEAPATH TSC voting members are:
@@ -68,8 +85,29 @@ Project releases will occur on a scheduled basis as agreed to by the committers.
 
 # Conflict resolution and voting
 
-While the Project aims to operate as a consensus-based community, if any TSC decision requires a vote to move the Project forward, the voting members of the TSC will vote on a one vote per voting member basis. The simple majority is needed to approve proposals.
+While the Project aims to operate as a consensus-based community, if any TSC decision requires a vote to move the Project forward, the voting members of the TSC will vote on a one vote per voting member basis.
+
+A quorum for a TSC meeting requires at least 50% of all TSC voting members to be present. The TSC may meet without a quorum, but it cannot make decisions at that meeting.
+
+Except for the cases below, a decision by vote at a meeting requires a majority of the voting members in attendance, provided a quorum is met. A decision by electronic vote without a meeting requires a majority of all TSC voting members.
+
+As specified in the Technical Charter:
+- A license exception requires a two-thirds vote of the entire TSC (section 7.c).
+- An amendment to the Charter requires a two-thirds vote of the entire TSC and approval by LF Projects (section 8.a).
+
 The preferred way to vote is to create a poll [here](https://lists.lfenergy.org/g/SEAPATH-tsc/addpoll).
+
+### Decision procedures
+
+| Decision | Process | Approval requirement |
+| --- | --- | --- |
+| Code contributions | Committer review | At least one eligible Committer approval and the other requirements in [Code Review](CONTRIBUTING.md#code-review). |
+| TSC decisions other than the exceptions below, when a vote is required | TSC vote | At a meeting with a quorum, a majority of TSC voting members in attendance; by electronic vote without a meeting, a majority of all TSC voting members. |
+| License exceptions | TSC vote | Two-thirds of the entire TSC. |
+| Charter amendments | TSC vote and LF Projects approval | Two-thirds of the entire TSC and approval by LF Projects. |
+| Adding a Committer | Vote of existing Committers | A majority of existing Committers. |
+| Removing a Committer | Vote of the other existing Committers | A majority of the other existing Committers. |
+| Confirming the current Committer list or changing assignments during a review | Vote of existing Committers | A majority of existing Committers. |
 
 # Communication
 

@@ -1,6 +1,6 @@
 # COMMITTERS
 
-This file lists the committers for the SEAPATH project and their repository assignments.
+This file lists the active committers for the SEAPATH project and their repository assignments.
 A committer is responsible for reviewing and merging pull requests in their assigned repositories.
 For the process to become a committer, see [seapath_governance.md](seapath_governance.md).
 
@@ -22,3 +22,7 @@ For the process to become a committer, see [seapath_governance.md](seapath_gover
 - Florent Carli
 - Mathieu Dupré
 - Erwann Roussy
+
+## Emeritus committers
+
+Former committers who choose emeritus status may be listed here.
